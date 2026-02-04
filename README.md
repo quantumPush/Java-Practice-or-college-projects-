@@ -42,3 +42,9 @@ This section contains basic CSS styling used to design and enhance HTML pages.
 
 CSS is linked with HTML files to improve UI and make the pages more user-friendly.
 
+## Web Technologies
+- HTML
+- CSS
+
+## Mini Projects
+- Login Page (HTML + CSS)
