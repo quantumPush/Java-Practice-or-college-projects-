@@ -1,10 +1,10 @@
 package main;
 
-import service.StudentService;
+import controller.StudentController;
 
 public class MainApp {
     public static void main(String[] args) {
-        StudentService service = new StudentService();
-        service.showStudent();
+        StudentController controller = new StudentController();
+        controller.start();
     }
 }
