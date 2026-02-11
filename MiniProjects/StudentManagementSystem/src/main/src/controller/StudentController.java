@@ -17,17 +17,29 @@ public class StudentController {
             System.out.print("Enter choice: ");
 
             choice = sc.nextInt();
+           do {
+    System.out.println("\n--- Student Management Menu ---");
+    System.out.println("1. Add Student");
+    System.out.println("2. View Students");
+    System.out.println("3. Exit");
+    System.out.print("Enter choice: ");
 
-            switch (choice) {
-                case 1:
-                    service.showStudent();
-                    break;
-                case 2:
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Invalid choice");
-            }
+    choice = sc.nextInt();
+
+    switch (choice) {
+        case 1:
+            service.addStudent();
+            break;
+        case 2:
+            service.showStudents();
+            break;
+        case 3:
+            System.out.println("Exiting...");
+            break;
+        default:
+            System.out.println("Invalid choice");
+    }
+} while (choice != 3);
         } while (choice != 2);
     }
 }
