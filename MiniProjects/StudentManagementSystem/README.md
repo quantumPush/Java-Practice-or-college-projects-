@@ -1,6 +1,8 @@
-Student Management System (Core Java)
+Student Management System using Java.
 
 Features:
--Add Student
--View Student
--Search Student
+- Add Student
+- Update Student
+- Delete Student
+- View Students
+Uses OOP concepts and ArrayList.
